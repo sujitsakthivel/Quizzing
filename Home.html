@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/search.css">
+        <link rel="stylesheet" href="css/invite.css">
+        <style>
+            body {
+                margin: 0px;
+            }
+        .nav{
+            background-color: #f44e30;
+            
+            padding-bottom: 500px;
+            margin: 0px;
+            padding: 0px; 
+            outline: none;
+            border: 0px;
+        }
+        .logo{
+            color:white;
+            font-family: monospace;
+            font-size:180%;
+        }
+        .navLinks{
+            color: white;
+            font-size:150%;
+            text-decoration: none;
+            padding-right: 15px;
+            font-family: monospace;
+        }
+        .nav2{
+            padding-top: 25px;
+            padding-bottom: 10px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="nav">
+            <div style="display: flex; justify-content: space-between;">
+            <h1 class="logo" style="padding-left: 80px;"><a href="/Home.html" style="text-decoration: none" class="logo">Quizzing</a></h1>
+            <div class="search__container" style="padding-right:50px ;"><input class="search__input" type="text" placeholder="Search" ></div>
+            <div class="nav2"><a href="/Home.html" class="navLinks" style="padding-right:40px;padding-left:20px;">+Create</a> 
+            <a href="/Home.html" class="navLinks" style="padding-right:30px;padding-left: 20px;" >SignUp/LogIn</a></div>
+            </div>
+            <div style="padding-top: 50px;padding-bottom:50px ;">
+            <div><h1 style="padding: 50px 0px 0px 480px;font-size: 500%;">Take Up a Quiz </h1>
+                <h1 style="padding: 0px 100px 100px 550px;font-size: 500%;color: White;"><span style="color: orange;">Or</span> Create one.</h1> 
+            </div>
+            <div style="padding-bottom:10px ;">
+            <div id="cover">
+                <form class="inviteForm" method="get" action="">
+                  <div class="tb">
+                    <div class="td"><input class="inviteInput" type="text" placeholder="Invite Code" required></div>
+                    <div class="td" id="s-cover">
+                      <button type="submit" class="inviteButton">
+                        <div id="s-circle"></div>
+                        <span></span>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
