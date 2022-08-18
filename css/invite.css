@@ -1,108 +1,66 @@
-  .tb {
-    display: table;
-    width: 100%;
+:root {
+    background: #f5f6fa;
+    color: #9c9c9c;
+    font: 1rem "PT Sans", sans-serif;
+  }
+  .container {
+    height: 100%;
   }
   
-  .td {
-    display: table-cell;
-    vertical-align: middle;
+  .a_invite {
+    color: inherit;
+  }
+  .a_invite:hover {
+    color: #7f8ff4;
   }
   
-  .inviteInput,
-  .inviteButton {
-    color: black;
-    font-family: Nunito;
-    padding: 0;
-    margin: 0;
+  .container {
+    /* display: flex; */
+    flex-direction: column;
+    padding-left: 8%;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: transparent;
+    color: inherit;
+    font: inherit;
     border: 0;
-    background-color: transparent;
-  }
-  
-  #cover {
-    /* position: absolute; */
-    top: 50%;
-    left: 0;
-    right: 0;
-    width: 550px;
-    padding: 0px;
-    margin: -83px auto 0 auto;
-    background-color: White;
-    border-radius: 20px;
-    /* box-shadow: 0 10px 40px #993955, 0 0 0 20px #ffffffeb; */
-    transform: scale(0.6);
-  }
-  
-  .inviteForm {
-    height: 96px;
-  }
-  
-  .inviteInput[type="text"] {
-    width: 100%;
-    height: 96px;
-    font-size: 55px;
-    line-height: 1;
-    padding-left: 10px;
-  }
-  
-  .inviteInput[type="text"]::placeholder {
-    color: black;
-  }
-  
-  #s-cover {
-    width: 1px;
-    padding-left: 35px;
-  }
-  
-  .inviteButton {
-    position: relative;
-    display: block;
-    width: 84px;
-    height: 96px;
+    outline: 0;
+    padding: 0;
     cursor: pointer;
+    font-size: 1vw;
+  }
+  .btn--primary {
+    background: #e43718;
+    color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    padding: 0.75vw 1vw;
+  }
+  .btn--primary:hover {
+    background: #ff2600;
+  }
+  .btn--primary:active {
+    background: #ef3211;
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  }
+  .btn--inside {
+    margin-left: -2vw;
   }
   
-  #s-circle {
-    top: -1px;
-    width: 67px;
-    height: 15px;
-    border-width: 0;
-    background-color: #fb5133;
-    border-radius: 20px;
+  .form__field {
+    width: 13vw;
+    background: #fff;
+    color: #292929;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+    border: 0;
+    outline: 0;
+    padding: 1% 0.5%;
+    font-size: 1.5vw;
   }
-  
-  .invitebutton span {
-    position: absolute;
-    top: 68px;
-    left: 43px;
-    display: block;
-    width: 45px;
-    height: 15px;
-    background-color: transparent;
-    border-radius: 10px;
-    transform: rotateZ(52deg);
-    transition: 0.5s ease all;
-  }
-  
-  .invitebutton span:before,
-  .invitebutton span:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 45px;
-    height: 15px;
-    background-color: Black;
-    border-radius: 10px;
-    transform: rotateZ(0);
-    transition: 0.5s ease all;
-  }
-  
-  #s-cover:hover #s-circle {
-    top: -1px;
-    width: 67px;
-    height: 15px;
-    border-width: 0;
-    background-color: Black;
-    border-radius: 20px;
-  }
-  

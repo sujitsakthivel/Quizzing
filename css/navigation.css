@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .logo{
+    color:#ef3211;
+    font-family: monospace;
+    font-size:4vw;
+    padding-top: 0%;
+    padding-left: 50%;
+    padding-right: 1%;
+}
+.search{
+    padding-right: 5%; 
+    padding-top: 1.75%;
+}
+.navLinks{
+    padding-top: 1.5%;
+    padding-right: 2%;
+}
+.links{
+    color: whitesmoke;
+    font-size:1.5vw;
+    text-decoration: none;
+    font-family: monospace;
+}
