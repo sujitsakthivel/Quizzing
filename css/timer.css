@@ -2,11 +2,11 @@
     --smaller: .75;
   }
   
-  * {
+  /* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
+  } */
   
   /* html, body {
     height: 100%;
@@ -52,7 +52,7 @@
   
   .timer_li {
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 1vw;
     list-style-type: none;
     padding: 1em;
     text-transform: uppercase;
@@ -60,17 +60,7 @@
   
   .timer_li span {
     display: block;
-    font-size: 4.5rem;
-  }
-  
-  .emoji {
-    display: none;
-    padding: 1rem;
-  }
-  
-  .emoji span {
-    font-size: 4rem;
-    padding: 0 .5rem;
+    font-size: 2vw;
   }
   
   @media all and (max-width: 768px) {
